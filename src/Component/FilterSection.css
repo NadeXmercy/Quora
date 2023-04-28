@@ -1,0 +1,44 @@
+.f-sections {
+  display: flex;
+  flex-direction: column;
+  
+  background-color:white;
+  
+
+  /* border-bottom: 1px solid black; */
+}
+
+.f-section {
+  display: flex;
+  margin-left: 30px;
+  margin-right: 110px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+  padding: 0px 1px 19px;
+  align-items: center;
+}
+
+.f-section > img {
+  width: 40px;
+  height: 40px;
+  margin-left: 13px;
+  margin-right: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* border-bottom: 1px; */
+}
+
+.f-section:hover {
+  background-color: rgb(229, 229, 229);
+}
+
+.f-section > p {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  color: grey;
+  /* border-bottom: yellow; */
+}

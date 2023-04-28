@@ -1,0 +1,32 @@
+.widget{
+    display: block;
+    width: 400px;
+    margin-left: 20px;
+    /* background-color: aqua; */
+}
+
+.w-infos{
+    display: block;
+    /* background-color: violet; */
+
+}
+.w-info{
+    display: block;
+    /* background-color: black; */
+    
+}
+
+.w-ads{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    margin: 90px 0px 0px;
+}
+.w-ad{
+     
+
+    border: outset;
+    /* background-color: blue; */
+}
+
+
